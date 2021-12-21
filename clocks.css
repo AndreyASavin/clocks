@@ -1,0 +1,92 @@
+* {
+    background-color: rgb(48, 57, 66);
+}
+h1 {
+    color: wheat;
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(27, 25, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgb(55, 92, 109) 0%, rgb(20, 35, 53) 50%);
+    box-shadow: 0 0 20px 1px rgba(134, 134, 134, 0.35);
+}
+.hublot {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    background:transparent;
+    display: flex;
+    justify-content: center;
+}
+.hour {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+.h {
+    width: 5px;
+    height: 60px;
+    border-radius: 7px;
+    background-color:goldenrod;
+    transform-origin: 50% bottom;
+}
+.minute {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+.m {
+    width: 3px;
+    height: 75px;
+    border-radius: 5px;
+    background-color:goldenrod;
+    transform-origin: 50% bottom;
+}
+.second {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+.s {
+    width: 1px;
+    height: 95px;
+    border-radius: 5px;
+    background-color:white;
+    transform-origin: 50% bottom;
+}
+.center {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 10;
+}
